@@ -25,6 +25,8 @@ const HomeHero = () => {
                             link={"/contact"}
                             text={"Available for Work"}
                             fontSize={"text-base"}
+                            textColour={"text-(--fontColor)"}
+                            fontWeight={"text-base"}
                         />
                     </div>
                 </div>
