@@ -32,8 +32,8 @@ const services: Service[] = [
         videoSrc: "wordpress-development.mp4",
     },
     {
-        label: "Ai Automation Solutions",
-        href: "/services/ai-automation-solutions",
+        label: "Bespoke Solutions",
+        href: "/services/bespoke-solutions",
         imageSrc: "ai-bg.png",
         videoSrc: "",
     },
