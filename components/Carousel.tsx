@@ -12,7 +12,7 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [slideWidth, setSlideWidth] = useState(0);
 
-    const screenWidth = window.innerWidth;
+    const screenWidth = typeof window !== "undefined" ? window.innerWidth : 0;
 
     const transformStyle = {
         width: `${100 / React.Children.count(slides)}%`,
