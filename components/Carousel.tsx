@@ -12,6 +12,16 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
     const containerRef = useRef<HTMLDivElement>(null);
     const [slideWidth, setSlideWidth] = useState(0);
 
+    const screenWidth = window.innerWidth;
+
+    const transformStyle = {
+        width: `${100 / React.Children.count(slides)}%`,
+        transform:
+            screenWidth < 768
+                ? `translateX(${curr * 86}%)`
+                : `translateX(${curr * 94}%)`,
+    };
+
     // Calculate slide width and gap
     useEffect(() => {
         if (containerRef.current) {
@@ -65,8 +75,20 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
                     )
                 )}
             </div>
+            {/* Carousel Bar */}
+            <div className="absolute bottom-0 left-6 md:left-0 w-full px-6 md:px-0">
+                <div className="flex items-center w-full absolute left-0 top-0">
+                    {/* Blue Bar */}
+                    <div
+                        className="h-[3px] transition ease-in-out duration-300 bg-(--accent)"
+                        style={transformStyle}
+                    ></div>
+                </div>
+
+                <div className="w-[94%] h-[3px] bg-(--foreground)"></div>
+            </div>
             {/* Carousel Buttons */}
-            <div className="absolute bottom-[-15px] right-0 z-10">
+            <div className="absolute md:bottom-[-15px] px-6 right-0 z-10 md:px-0">
                 <button onClick={prev}>
                     <Image
                         className="mr-4 hover:cursor-pointer"
@@ -85,21 +107,6 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
                         height={22}
                     />
                 </button>
-            </div>
-            {/* Carousel Bar */}
-            <div className="absolute bottom-0 left-0 w-full">
-                <div className="flex items-center w-full absolute left-0 top-0">
-                    {/* Blue Bar */}
-                    <div
-                        className="h-[3px] transition ease-in-out duration-300 bg-(--accent)"
-                        style={{
-                            width: `${100 / React.Children.count(slides)}%`,
-                            transform: `translateX(${curr * 94}%)`,
-                        }}
-                    ></div>
-                </div>
-
-                <div className="w-[94%] h-[3px] bg-(--foreground)"></div>
             </div>
         </div>
     );

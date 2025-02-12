@@ -58,7 +58,7 @@ const slides = [
 const OurApproach = () => {
     return (
         <div className="py-20 bg-(--lightBg)">
-            <div className="container mx-auto relative">
+            <div className="container mx-auto px-6 relative md:px-0">
                 <Title
                     subTitle={"Inception to Completion"}
                     mainTitle={"Our Approach"}

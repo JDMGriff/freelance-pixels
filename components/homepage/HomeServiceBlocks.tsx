@@ -64,7 +64,7 @@ const HomeServiceBlocks = () => {
 
     return (
         <div className="pt-20 pb-32">
-            <div className="container mx-auto">
+            <div className="container mx-auto px-6 md:px-0">
                 <Title subTitle={"Our Craft"} mainTitle={"What We Do"} />
             </div>
             <div className="w-full flex flex-wrap justify-between pt-10 pb-32">
