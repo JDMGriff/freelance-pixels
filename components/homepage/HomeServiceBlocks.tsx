@@ -74,7 +74,7 @@ const HomeServiceBlocks = () => {
                         key={index}
                         href={service.href}
                     >
-                        <div className="overflow-hidden transition-all duration-500 h-[300px] sm:h-[400px] lg:h-[700px] sm:group-hover:h-[316px] lg:group-hover:h-[616px]">
+                        <div className="overflow-hidden transition-all duration-500 h-[300px] group-hover:h-[216px] sm:h-[400px] lg:h-[700px] sm:group-hover:h-[316px] lg:group-hover:h-[616px]">
                             <div className="h-full w-full transition-all duration-500 group-hover:scale-[1.1] overflow-hidden">
                                 {service.imageSrc ? (
                                     <>
