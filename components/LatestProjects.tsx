@@ -45,7 +45,7 @@ const LatestProjects = () => {
                     >
                         <img
                             className="relative top-[50%] -translate-y-[50%] z-0 object-cover w-full h-full"
-                            src={null}
+                            src={"/digital-design-bg.png"}
                             alt="Service Image"
                             width="100%"
                             height="auto"
