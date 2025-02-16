@@ -7,7 +7,7 @@ import Carousel from "../Carousel";
 const slides = [
     {
         stepTitle: "Step 1",
-        slideTitle: "Discovery Stage",
+        slideTitle: "Discover",
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "SHOW ME STEP 2",
@@ -15,7 +15,7 @@ const slides = [
     },
     {
         stepTitle: "Step 2",
-        slideTitle: "Research & Wireframing",
+        slideTitle: "Design",
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "SHOW ME STEP 3",
@@ -23,7 +23,7 @@ const slides = [
     },
     {
         stepTitle: "Step 3",
-        slideTitle: "Design & Visualise",
+        slideTitle: "Develop",
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "SHOW ME STEP 4",
@@ -31,23 +31,7 @@ const slides = [
     },
     {
         stepTitle: "Step 4",
-        slideTitle: "Development",
-        slideText:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
-        slideBtnText: "SHOW ME STEP 5",
-        slideBtnLink: "#",
-    },
-    {
-        stepTitle: "Step 5",
-        slideTitle: "Test",
-        slideText:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
-        slideBtnText: "SHOW ME STEP 6",
-        slideBtnLink: "#",
-    },
-    {
-        stepTitle: "Step 6",
-        slideTitle: "Launch",
+        slideTitle: "Deploy",
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "TELL ME MORE",

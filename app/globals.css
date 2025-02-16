@@ -6,12 +6,13 @@
 }
 
 :root {
-	--background: #1B1C1D;
-	--foreground: #272829;
-	--lightBg: #232324;
+	--background: #0f0f10;
+	--foreground: #171819;
+	--light-foreground: #525253;
+	--lightBg: #111213;
 	--fontColor: #eeeeee;
 	--lightFont: #6B6B6B;
-	--accent: #16C6D0;
+	--accent: #48C1EE;
 }
 
 @media (prefers-color-scheme: dark) {

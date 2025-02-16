@@ -18,8 +18,8 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
         width: `${100 / React.Children.count(slides)}%`,
         transform:
             screenWidth < 768
-                ? `translateX(${curr * 86}%)`
-                : `translateX(${curr * 94}%)`,
+                ? `translateX(${curr * 89}%)`
+                : `translateX(${curr * 92}%)`,
     };
 
     // Calculate slide width and gap
@@ -52,7 +52,7 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
 
     return (
         <div
-            className="w-full md:max-w-[800px] lg:max-w-[1052px] overflow-x-hidden lg:overflow-x-visible"
+            className="w-full md:max-w-[800px] lg:max-w-[1052px] pb-10 overflow-x-hidden lg:overflow-x-visible"
             ref={containerRef}
         >
             <div
@@ -76,7 +76,7 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
                 )}
             </div>
             {/* Carousel Bar */}
-            <div className="absolute bottom-0 left-6 md:left-0 w-full px-6 md:px-0">
+            <div className="absolute bottom-0 left-6 md:left-0 w-full">
                 <div className="flex items-center w-full absolute left-0 top-0">
                     {/* Blue Bar */}
                     <div
@@ -85,10 +85,10 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
                     ></div>
                 </div>
 
-                <div className="w-[94%] h-[3px] bg-(--foreground)"></div>
+                <div className="w-[92%] h-[3px] bg-(--foreground) md:w-[94%]"></div>
             </div>
             {/* Carousel Buttons */}
-            <div className="absolute md:bottom-[-15px] px-6 right-0 z-10 md:px-0">
+            <div className="absolute bottom-6 md:bottom-[-15px] px-6 right-0 z-10 md:px-0">
                 <button onClick={prev}>
                     <Image
                         className="mr-4 hover:cursor-pointer"

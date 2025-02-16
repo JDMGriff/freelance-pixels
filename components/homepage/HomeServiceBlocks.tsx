@@ -109,7 +109,7 @@ const HomeServiceBlocks = () => {
                                 )}
                             </div>
                         </div>
-                        <h3 className="flex items-center absolute bottom-[24px] left-6 font-semibold z-[20]">
+                        <h3 className="flex items-center absolute bottom-[24px] left-6 font-semibold z-[10]">
                             {service.label}
                             <Image
                                 className="ml-2 duration-600 transition-all relative opacity-0 group-hover:block group-hover:opacity-100 group-hover:translate-x-1 group-hover:-translate-y-1"

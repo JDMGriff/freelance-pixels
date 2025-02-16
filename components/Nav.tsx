@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { usePathname } from "next/navigation";
-import Button from "./Button";
+import Button from "./ui/Button";
 
 const links = [
     { href: "/", label: "Home" },
@@ -17,7 +17,7 @@ const Nav = () => {
     const pathName = usePathname();
 
     return (
-        <div className="w-full container mx-auto flex items-center justify-between">
+        <div className="w-full container mx-auto px-6 flex items-center justify-between lg:px-0">
             {/* Logo */}
             <a href="/">
                 <Image src="/logo.svg" alt="" width={300} height={41} />
