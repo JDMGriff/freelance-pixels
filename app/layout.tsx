@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
+import AnimatedCursor from "react-animated-cursor";
 
 export const metadata: Metadata = {
     title: "Freelance Pixels | Digital Design, AI Software, Frontend Development, WordPress Development",
@@ -15,6 +16,26 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className="antialiased">
+                <AnimatedCursor
+                    innerSize={14}
+                    outerSize={14}
+                    color="72, 193, 238"
+                    clickables={[
+                        "a",
+                        'input[type="text"]',
+                        'input[type="email"]',
+                        'input[type="number"]',
+                        'input[type="submit"]',
+                        'input[type="image"]',
+                        "label[for]",
+                        "select",
+                        "textarea",
+                        "button",
+                        ".link",
+                    ]}
+                    trailingSpeed={1}
+                    outerScale={4}
+                />
                 <Header />
                 {children}
             </body>
