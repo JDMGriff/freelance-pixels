@@ -19,12 +19,11 @@ const ApproachSlide: React.FC<ApproachSlideProps> = ({
     slideTitle,
     slideText,
     slideBtnText,
-    slideBtnLink,
     onNext,
 }) => {
     return (
         <div
-            className={`w-full h-full md:h-[450px] flex-shrink-0 flex relative items-center transition-all justify-end hover:cursor-grab active:cursor-grabbing ${
+            className={`w-full h-full md:h-[450px] flex-shrink-0 flex relative items-center transition-all justify-end ${
                 isPreceeding ? "preceeding-item" : ""
             }`}
         >
@@ -52,14 +51,19 @@ const ApproachSlide: React.FC<ApproachSlideProps> = ({
                 </span>
                 <h3 className="text-2xl font-semibold">{slideTitle}</h3>
                 <p className="py-6">{slideText}</p>
-                <Button
-                    fontSize={"text-base"}
-                    fontWeight={"font-semibold"}
-                    link={slideBtnLink}
+                <button
+                    className="group flex items-end leading-4 text-base font-semibold text-(--lightFont)"
                     onClick={onNext}
-                    textColour="text-(--lightFont)"
-                    text={slideBtnText}
-                ></Button>
+                >
+                    {slideBtnText}
+                    <Image
+                        className="ml-2 duration-300 transition-transform relative top-[-2px] group-hover:translate-x-1 group-hover:-translate-y-1"
+                        src="/arrow.svg"
+                        alt="Arrow Icon"
+                        width={12}
+                        height={12}
+                    />
+                </button>
             </div>
         </div>
     );

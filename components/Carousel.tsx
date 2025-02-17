@@ -47,6 +47,9 @@ const Carousel: React.FC<CarouselProps> = ({ children: slides }) => {
     const handlers = useSwipeable({
         onSwipedLeft: () => next(),
         onSwipedRight: () => prev(),
+        onTouchStartOrOnMouseDown: (event) => {
+            event.event.preventDefault();
+        },
         trackMouse: true,
     });
 

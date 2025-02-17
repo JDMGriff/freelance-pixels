@@ -11,7 +11,7 @@ const slides = [
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "SHOW ME STEP 2",
-        slideBtnLink: "#",
+        slideBtnLink: "",
     },
     {
         stepTitle: "Step 2",
@@ -19,7 +19,7 @@ const slides = [
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "SHOW ME STEP 3",
-        slideBtnLink: "#",
+        slideBtnLink: "",
     },
     {
         stepTitle: "Step 3",
@@ -27,7 +27,7 @@ const slides = [
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "SHOW ME STEP 4",
-        slideBtnLink: "#",
+        slideBtnLink: "",
     },
     {
         stepTitle: "Step 4",
@@ -35,7 +35,7 @@ const slides = [
         slideText:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed hendrerit risus. Morbi dignissim dictum justo, a gravida ipsum ultricies id. Aenean eget augue ac justo tincidunt gravida. Nunc posuere eget mauris eu tincidunt.",
         slideBtnText: "TELL ME MORE",
-        slideBtnLink: "#",
+        slideBtnLink: "",
     },
 ];
 
