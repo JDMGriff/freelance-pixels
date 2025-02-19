@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header";
 import AnimatedCursor from "react-animated-cursor";
+import Footer from "@/components/Footer";
+import ContactCta from "@/components/ContactCta";
 
 export const metadata: Metadata = {
     title: "Freelance Pixels | Digital Design, AI Software, Frontend Development, WordPress Development",
@@ -38,6 +40,8 @@ export default function RootLayout({
                 />
                 <Header />
                 {children}
+                <ContactCta />
+                <Footer />
             </body>
         </html>
     );

@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
-import Link from "next/link";
 
 interface ButtonProps {
-    link: string;
+    link?: string;
     text: string;
     fontSize: string;
     textColour: string;
@@ -20,10 +19,10 @@ const Button: React.FC<ButtonProps> = ({
     onClick,
 }) => {
     return (
-        <Link
+        <a
             href={link}
             onClick={onClick}
-            className={`group flex items-end leading-4 hover:cursor-pointer ${fontSize} ${textColour} ${fontWeight}`}
+            className={`group flex items-end leading-4 ${fontSize} ${textColour} ${fontWeight}`}
         >
             {text}
             <Image
@@ -33,7 +32,7 @@ const Button: React.FC<ButtonProps> = ({
                 width={12}
                 height={12}
             />
-        </Link>
+        </a>
     );
 };
 
