@@ -14,7 +14,7 @@ const HomeHero = () => {
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit.
                         </h1>
-                        <div className="flex flex-col gap-6 mt-auto relative -top-6 md:-top-0 md:flex-row md:gap-10 md:mt-0">
+                        <div className="flex flex-col gap-6 mt-auto relative -top-10 md:-top-0 md:flex-row md:gap-10 md:mt-0">
                             <div className="flex flex-col">
                                 <span className="uppercase text-xs text-(--lightFont) font-semibold mb-2">
                                     Location
