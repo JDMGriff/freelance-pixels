@@ -1,17 +1,29 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Nav from "./Nav";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
     const [isToggled, setIsToggled] = useState(false);
+    const [isScrolling, setIsScrolling] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolling(window.scrollY > 0);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
 
     const menuToggle = () => {
         setIsToggled((prevState) => !prevState);
     };
     return (
         <>
-            <div className="bg-(--background) w-full fixed top-0 left-0 right-0 z-[50] py-8">
+            <div
+                className={`w-full fixed top-0 left-0 right-0 z-[50] py-8 transition-all duration-200 ${isScrolling ? "bg-(--background)" : ""}`}
+            >
                 <div className="md:hidden">
                     <MobileNav menuToggle={menuToggle} isToggled={isToggled} />
                 </div>

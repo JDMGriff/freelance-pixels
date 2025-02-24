@@ -90,6 +90,7 @@ const ContactForm = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
+                    autoComplete="email"
                 />
                 <input
                     className="p-3 border-b border-(--light-foreground) w-full lg:w-[49%] mb-4"
@@ -99,6 +100,7 @@ const ContactForm = () => {
                     value={formData.phone}
                     onChange={handleChange}
                     required
+                    autoComplete="tel"
                 />
                 <input
                     className="p-3 border-b border-(--light-foreground) w-full lg:w-[49%] mb-4"
