@@ -22,7 +22,7 @@ const Header = () => {
     return (
         <>
             <div
-                className={`w-full fixed top-0 left-0 right-0 z-[50] py-8 transition-all duration-200 ${isScrolling ? "bg-(--background)" : ""}`}
+                className={`w-full fixed top-0 left-0 right-0 z-[50] py-8 transition-all duration-200 ${isScrolling ? "bg-[rgba(15,15,16,0.6)] backdrop-blur-2xl" : ""} ${isToggled ? "bg-[rgba(15,15,16,0.6)] backdrop-blur-2xl" : ""}`}
             >
                 <div className="md:hidden">
                     <MobileNav menuToggle={menuToggle} isToggled={isToggled} />
@@ -35,7 +35,7 @@ const Header = () => {
             <div
                 className={`md:hidden w-full transition-opacity duration-300 fixed left-0 -top-8 z-20 ${
                     isToggled
-                        ? "bg-black opacity-90 h-[110vh]"
+                        ? "bg-[rgba(0,0,0,0.8)] h-[110vh] backdrop-blur-lg"
                         : "opacity-0 h-0"
                 }`}
             ></div>

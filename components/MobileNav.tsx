@@ -47,11 +47,11 @@ const MobileNav: React.FC<MobileNavProps> = ({ menuToggle, isToggled }) => {
                 <p className="text-xl">
                     <VisuallyHidden>Menu</VisuallyHidden>
                 </p>
-                <nav className="flex flex-col mt-12 px-6 pt-12 h-screen bg-(--background) md:gap-8">
+                <nav className="flex flex-col mt-[62px] pt-2 h-screen bg-[rgba(15,15,16,0.6)] backdrop-blur-2xl md:gap-8">
                     {links.map((link, index) => (
                         <Link
                             key={index}
-                            className={`uppercase text-md font-medium hover:text-[--accent] py-4 transition-all border-b border-(--foreground)  ${
+                            className={`uppercase text-md pl-6 font-medium hover:text-[--accent] py-4 transition-all border-b border-(--foreground) ${
                                 pathName === link.href ? "text-[--accent]" : ""
                             }`}
                             href={link.href}
