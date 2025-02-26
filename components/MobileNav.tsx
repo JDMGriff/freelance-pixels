@@ -13,7 +13,7 @@ export interface MobileNavProps {
 
 const links = [
     { href: "/", label: "Home" },
-    { href: "/About", label: "About" },
+    { href: "/about", label: "About" },
     { href: "/work", label: "Work" },
     { href: "/services", label: "Services" },
     { href: "/contact", label: "Contact" },
