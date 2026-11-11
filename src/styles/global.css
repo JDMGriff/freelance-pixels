@@ -27,13 +27,13 @@
     font-display: swap;
 }
 :root {
-    --bg: #111214;
+    --bg: #0f1114;
     --surface: #1a1c1f;
-    --surface-2: #222428;
+    --surface-2: #131418;
     --text: #f2f0e9;
     --muted: #aaaeb4;
     --line: #35383d;
-    --accent: #ff7300;
+    --accent: #fa0;
     --font: Manrope, Arial, sans-serif;
 }
 * {
@@ -172,9 +172,10 @@ select:focus {
         transform 0.18s;
 }
 .button:hover {
-    background: #ff8f33;
+    background: #E8B247;
     transform: translateY(-2px);
-    border-color: #ff8f33;
+    border-color: #E8B247;
+    color: #111214 !important;
 }
 .button-small {
     padding: 11px 16px;
@@ -226,41 +227,9 @@ select:focus {
     justify-content: space-between;
     gap: 30px;
 }
-.brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 19px;
-    font-weight: 700;
-    letter-spacing: -0.7px;
-    line-height: 1.1;
-    white-space: nowrap;
-}
-.brand small {
-    font-size: 9px;
-    text-transform: uppercase;
-    color: #a1a6ad;
-    letter-spacing: 1.3px;
-    display: block;
-    margin-top: 6px;
-    font-weight: 400;
-}
-.brand-mark {
-    display: grid;
-    grid-template-columns: repeat(2, 6px);
-    gap: 4px;
-    align-self: flex-start;
-    margin-top: 3px;
-}
-.brand-mark i {
-    width: 6px;
-    height: 6px;
-    display: block;
-    background: var(--accent);
-}
-.brand-mark i:last-child {
-    background: transparent;
-    border: 1px solid var(--accent);
+.brand img {
+    width: 100%;
+    max-width: 220px;
 }
 .main-nav {
     display: flex;
@@ -750,7 +719,7 @@ details[open] > summary > span {
 }
 .closing-inner .button {
     background: #111214;
-    color: #fff;
+    color: #fff !important;
     border-color: #111214;
 }
 .closing-inner .button:hover {

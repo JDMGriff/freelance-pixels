@@ -1,1 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="8" fill="#111214"/><path d="M15 15h13v13H15zm21 0h13v13H36zM15 36h13v13H15z" fill="#ff7300"/><path d="M36 36h13v13H36z" fill="none" stroke="#ff7300" stroke-width="2"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+  <g id="Group_1" data-name="Group 1" transform="translate(339 754)">
+    <rect id="Rectangle_1" data-name="Rectangle 1" width="600" height="600" rx="20" transform="translate(-339 -754)" fill="#111214"/>
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="179" cy="179" r="179" transform="translate(-218 -645)" fill="#fa0"/>
+  </g>
+</svg>
