@@ -1,0 +1,607 @@
+[
+    {
+        "name": "Ink Digital",
+        "slug": "ink-digital",
+        "type": "Digital agency",
+        "role": "WordPress development",
+        "tools": "WordPress",
+        "intro": "WordPress development for Ink Digital, bringing the agency’s supplied designs into a working website.",
+        "overview": "My role was the WordPress build. The site brings services, industries, case studies and editorial content together for a digital marketing agency. Visual design was supplied separately.",
+        "focus": [
+            [
+                "Development from supplied designs",
+                "I handled the WordPress implementation, translating the supplied visual direction into the website."
+            ],
+            [
+                "An expanding service offering",
+                "The website accommodates individual services and sectors alongside case studies, team information and articles."
+            ],
+            [
+                "Consistent page delivery",
+                "Shared navigation and page elements carry the agency’s identity from the homepage into the service pages."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/ink-digital-1.jpg",
+                "caption": "Homepage: the supplied agency design implemented in WordPress.",
+                "width": 1348,
+                "height": 936
+            },
+            {
+                "src": "/images/projects/ink-digital-2.jpg",
+                "caption": "Services page: the same visual language carried into an internal page.",
+                "width": 1348,
+                "height": 926
+            }
+        ],
+        "attribution": "Completed as part of my employed role at Ink Digital.",
+        "websiteUrl": "https://ink-digital.co.uk/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "Samiad",
+        "slug": "samiad",
+        "type": "Education",
+        "role": "WordPress development",
+        "tools": "WordPress / Custom boilerplate / ACF",
+        "intro": "A WordPress build for an international summer school provider, developed on my own boilerplate from supplied designs.",
+        "overview": "I built Samiad’s website using my WordPress boilerplate. The project brings age groups, programmes and UK campuses into a structured site for international families. My involvement was development; the visual design was supplied separately.",
+        "focus": [
+            [
+                "My WordPress foundation",
+                "The build uses my own boilerplate as its starting point, with components developed around the project’s content and supplied designs."
+            ],
+            [
+                "Connected programme content",
+                "Age groups, programmes and locations give families different routes into the summer school offering."
+            ],
+            [
+                "Content beyond the homepage",
+                "The same build supports location information, course pages, guidance and enquiry routes rather than treating each page as a standalone layout."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/samiad-1.jpg",
+                "caption": "Homepage: the summer school introduction and programme highlights.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/samiad-2.jpg",
+                "caption": "Locations page: campus information within the same WordPress build.",
+                "width": 1348,
+                "height": 926
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://www.samiad.com/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "Do Not Disturb",
+        "slug": "do-not-disturb",
+        "type": "Luxury travel",
+        "role": "WordPress development",
+        "tools": "WordPress",
+        "intro": "WordPress development for a luxury travel website, implementing supplied designs across destination and travel content.",
+        "overview": "My contribution was the WordPress build. The site brings together destinations, travel inspiration, itineraries and editorial content, with routes to a tailored travel enquiry. Visual design was supplied separately.",
+        "focus": [
+            [
+                "Implementing the visual direction",
+                "The development carries the supplied design through the homepage and the site’s travel content."
+            ],
+            [
+                "Several ways to explore",
+                "Destination and inspiration sections let visitors browse by place or by the kind of trip they have in mind."
+            ],
+            [
+                "From browsing to an enquiry",
+                "The website connects travel content with a structured enquiry form for the travel team."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/do-not-disturb-1.jpg",
+                "caption": "Homepage: the supplied travel design implemented in WordPress.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/do-not-disturb-2.jpg",
+                "caption": "Destinations page: an internal browsing route within the build.",
+                "width": 1348,
+                "height": 926
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://www.donotdisturb.com/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "Oasis LMF",
+        "slug": "oasis-lmf",
+        "type": "Open-source software",
+        "role": "UI/UX design & WordPress build",
+        "tools": "WordPress / Custom boilerplate / ACF",
+        "intro": "Website design and WordPress development for Oasis Loss Modelling Framework, built using my own boilerplate.",
+        "overview": "I handled both the website design and WordPress build. The site introduces an open-source catastrophe modelling framework and provides routes into models, resources and the wider community. The examples shown are from the staging website.",
+        "focus": [
+            [
+                "Design for specialist content",
+                "The site separates information for insurers, model developers and technology partners, giving each audience a route into the platform."
+            ],
+            [
+                "Built on my boilerplate",
+                "My WordPress foundation provides the starting point for the page components and content editing setup."
+            ],
+            [
+                "A connected information hub",
+                "The model library, resource library, news and events sit within a shared site structure and visual system."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/oasis-lmf-1.jpg",
+                "caption": "Homepage: the Oasis LMF design and build, shown on staging.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/oasis-lmf-2.jpg",
+                "caption": "Model library: a specialist content section within the staging website.",
+                "width": 1348,
+                "height": 926
+            }
+        ],
+        "status": "Staging preview",
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://staging.oasislmf.org/",
+        "websiteLabel": "View staging website"
+    },
+    {
+        "name": "Hilson Moran",
+        "type": "Consultancy",
+        "slug": "hilson",
+        "role": "UI/UX design & WordPress build",
+        "tools": "Adobe XD / WordPress",
+        "intro": "Design and WordPress development for the Hilson Moran website, with desktop and mobile examples from the project.",
+        "overview": "The website brings consultancy expertise, project work and editorial content into one visual system. My involvement covered the UI/UX design and the WordPress build.",
+        "focus": [
+            [
+                "Presenting expertise",
+                "The homepage pairs a clear introduction with large project imagery. Navigation provides routes into expertise, projects, insights and careers."
+            ],
+            [
+                "Exploring the work",
+                "The project interface shown in the mobile example includes expertise, sector and location filters, making a substantial portfolio easier to browse."
+            ],
+            [
+                "Carrying the design across screens",
+                "The desktop and mobile examples show how the visual identity, navigation and content hierarchy translate between screen sizes."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/hilson-1.jpg",
+                "caption": "Desktop homepage: positioning, navigation and project imagery.",
+                "width": 1600,
+                "height": 824
+            },
+            {
+                "src": "/images/projects/hilson-2.jpg",
+                "caption": "Mobile project browsing: expertise, sector and location filters.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/hilson-3.jpg",
+                "caption": "A closer look at the website design.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/hilson-4.jpg",
+                "caption": "Further desktop design detail.",
+                "width": 1600,
+                "height": 825
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://www.tyrenshm.com/",
+        "websiteLabel": "Visit current company website",
+        "websiteNote": "The company now trades as Tyréns Hilson Moran. The archived examples below show the project I worked on."
+    },
+    {
+        "name": "OneHub Southend",
+        "type": "Workspace",
+        "slug": "onehub",
+        "role": "UI/UX design & WordPress build",
+        "tools": "Adobe XD / WordPress",
+        "intro": "UI/UX design and a WordPress build for OneHub Southend, presenting workspace options and routes to enquire.",
+        "overview": "OneHub’s website introduces its co-working space, serviced offices and meeting rooms. My involvement covered both the UI/UX design and the WordPress build.",
+        "focus": [
+            [
+                "Making the offer visible",
+                "The navigation separates co-working space, serviced offices and meeting rooms. The homepage introduces the workspace and community together."
+            ],
+            [
+                "Giving visitors a next step",
+                "The design includes clear calls to download a brochure, book a tour and contact the team, alongside the information visitors are considering."
+            ],
+            [
+                "A consistent mobile experience",
+                "The mobile design keeps the main offer and brochure call to action prominent, with a compact navigation for smaller screens."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/onehub-1.jpg",
+                "caption": "Desktop homepage: the workspace proposition and brochure call to action.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/onehub-2.jpg",
+                "caption": "Mobile homepage: the core offer carried onto a smaller screen.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/onehub-3.jpg",
+                "caption": "Website layout and content detail.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/onehub-4.jpg",
+                "caption": "Further page design detail.",
+                "width": 1600,
+                "height": 826
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://www.onehubsouthend.co.uk/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "The Furniture Makers Company",
+        "slug": "furniture-makers",
+        "type": "Charity & membership",
+        "role": "UI/UX design & WordPress build",
+        "tools": "Adobe XD / WordPress",
+        "intro": "UI/UX design and WordPress development for the furnishing industry’s livery company and charity.",
+        "overview": "My involvement covered the UI/UX design and the WordPress build. The project presents an organisation with several audiences and areas of activity, using a strong photographic identity and clear routes into its content.",
+        "focus": [
+            [
+                "A clear introduction",
+                "The homepage introduces the company and charity through a large photographic opening and direct navigation."
+            ],
+            [
+                "Design and implementation",
+                "I worked across the visual design and WordPress development, carrying the interface through to the finished build."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/furniture-makers-1.jpg",
+                "caption": "Desktop homepage: the company and charity introduction.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/furniture-makers-2.jpg",
+                "caption": "Mobile website example.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/furniture-makers-3.jpg",
+                "caption": "A closer look at the website layout.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/furniture-makers-4.jpg",
+                "caption": "Further page and interface detail.",
+                "width": 1600,
+                "height": 825
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://furnituremakers.org.uk/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "Dalau",
+        "slug": "dalau",
+        "type": "Manufacturing",
+        "role": "UI/UX design & WordPress build",
+        "tools": "Adobe XD / WordPress",
+        "intro": "UI/UX design and WordPress development for a specialist manufacturing business.",
+        "overview": "My role covered the UI/UX design and WordPress build. The website presents Dalau’s products, capabilities and company information within a consistent technical brand.",
+        "focus": [
+            [
+                "Presenting technical capability",
+                "The homepage uses manufacturing imagery and a direct introduction to establish the business and its capabilities."
+            ],
+            [
+                "Design through to development",
+                "I handled the interface design and its implementation in WordPress, including the desktop and mobile layouts shown here."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/dalau-1.jpg",
+                "caption": "Desktop homepage: manufacturing imagery and the main introduction.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/dalau-2.jpg",
+                "caption": "Mobile website example.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/dalau-3.jpg",
+                "caption": "Website layout and content detail.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/dalau-4.jpg",
+                "caption": "Further design and build detail.",
+                "width": 1600,
+                "height": 819
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://dalau.com/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "PowerSonic",
+        "slug": "power-sonic",
+        "type": "Energy & batteries",
+        "role": "UI/UX design",
+        "tools": "Adobe XD",
+        "intro": "UI/UX design for a battery and power solutions website.",
+        "overview": "My involvement was the UI/UX design. The work shown presents battery products, applications and company information within a consistent visual system.",
+        "focus": [
+            [
+                "Product-led navigation",
+                "The desktop design makes product and application information accessible from the main navigation and homepage."
+            ],
+            [
+                "A consistent visual system",
+                "Typography, red accents and imagery carry the brand through the interface and its smaller-screen layouts."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/power-sonic-1.jpg",
+                "caption": "Desktop homepage design: product and application routes.",
+                "width": 1600,
+                "height": 824
+            },
+            {
+                "src": "/images/projects/power-sonic-2.jpg",
+                "caption": "Mobile interface design.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/power-sonic-3.jpg",
+                "caption": "A closer look at the page design.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/power-sonic-4.jpg",
+                "caption": "Further interface design detail.",
+                "width": 1600,
+                "height": 825
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://www.power-sonic.com/",
+        "websiteLabel": "Visit current website",
+        "websiteNote": "The live website has changed since this design project. The archived examples below show my UI/UX work."
+    },
+    {
+        "name": "Talis Projects",
+        "slug": "talis-projects",
+        "type": "Commercial interiors",
+        "role": "WordPress development",
+        "tools": "WordPress",
+        "intro": "WordPress development for a commercial refurbishment and interiors business.",
+        "overview": "My role was the WordPress build. I implemented the supplied design for a site presenting Talis Projects’ services and work. The examples show the website as delivered in the project archive.",
+        "focus": [
+            [
+                "Development from supplied designs",
+                "I translated the supplied layouts into the WordPress website, including the responsive implementation."
+            ],
+            [
+                "Showing services and work",
+                "The website pairs service information with project imagery and routes into the company’s work."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/talis-projects-1.jpg",
+                "caption": "Desktop homepage: the supplied design implemented in WordPress.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/talis-projects-2.jpg",
+                "caption": "Mobile website example.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/talis-projects-3.jpg",
+                "caption": "Website content and layout detail.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/talis-projects-4.jpg",
+                "caption": "Further page detail.",
+                "width": 1600,
+                "height": 825
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://www.talisprojects.co.uk/",
+        "websiteLabel": "Visit live website"
+    },
+    {
+        "name": "Apollo Dental",
+        "slug": "apollo-dental",
+        "type": "Dental care",
+        "role": "WordPress development",
+        "tools": "WordPress",
+        "intro": "WordPress development for a dental practice website, implementing supplied designs.",
+        "overview": "My involvement was the WordPress build. These archived project examples show the supplied design implemented across the practice website. They are presented as examples of my development work rather than a statement about the site’s current launch status.",
+        "focus": [
+            [
+                "Implementing the design",
+                "The build carries the supplied colour, typography and photographic direction into the WordPress pages."
+            ],
+            [
+                "Responsive page layouts",
+                "The desktop and mobile examples show how the practice content and calls to action are carried across screen sizes."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/apollo-dental-1.jpg",
+                "caption": "Archived project example: the desktop website build.",
+                "width": 1600,
+                "height": 816
+            },
+            {
+                "src": "/images/projects/apollo-dental-2.jpg",
+                "caption": "Archived project example: the mobile layout.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/apollo-dental-3.jpg",
+                "caption": "Archived website content and layout detail.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/apollo-dental-4.jpg",
+                "caption": "Further archived page detail.",
+                "width": 1600,
+                "height": 821
+            }
+        ],
+        "status": "Project archive",
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteNote": "Archived project examples. The former staging website is no longer available."
+    },
+    {
+        "name": "Investing Matters",
+        "type": "Publishing",
+        "slug": "im",
+        "role": "UI/UX design",
+        "tools": "Adobe XD",
+        "intro": "UI/UX design for Investing Matters, bringing market stories, featured video and category-led news into a publication layout.",
+        "overview": "My involvement in Investing Matters was UI/UX design. The work shown focuses on the organisation and presentation of editorial content.",
+        "focus": [
+            [
+                "Handling several content priorities",
+                "The desktop layout gives top stories and featured video distinct positions, with economic news and other stories arranged beneath them."
+            ],
+            [
+                "Creating an editorial hierarchy",
+                "Headings, imagery and category accents distinguish content areas while keeping the page recognisable as one publication."
+            ],
+            [
+                "Reordering for mobile",
+                "The mobile example presents featured video and top stories in a single-column flow, retaining the same visual identity."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/im-1.jpg",
+                "caption": "Desktop editorial layout: top stories, video and economic news.",
+                "width": 1600,
+                "height": 826
+            },
+            {
+                "src": "/images/projects/im-2.jpg",
+                "caption": "Mobile layout: featured video and top stories in a single column.",
+                "width": 1321,
+                "height": 994,
+                "crop": {
+                    "x": 470,
+                    "y": 160,
+                    "width": 381,
+                    "height": 676
+                }
+            },
+            {
+                "src": "/images/projects/im-3.jpg",
+                "caption": "Editorial page design detail.",
+                "width": 1321,
+                "height": 994
+            },
+            {
+                "src": "/images/projects/im-4.jpg",
+                "caption": "Further publication design detail.",
+                "width": 1600,
+                "height": 824
+            }
+        ],
+        "attribution": "Completed as part of an employed agency role."
+    }
+]

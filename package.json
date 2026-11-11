@@ -1,39 +1,29 @@
 {
-  "name": "freelance-pixels",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@glidejs/glide": "^3.7.1",
-    "@radix-ui/react-dialog": "^1.1.6",
-    "@react-email/components": "^0.0.33",
-    "@tailwindcss/postcss": "^4.0.4",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
-    "lucide-react": "^0.475.0",
-    "next": "15.1.6",
-    "postcss": "^8.5.1",
-    "react": "^19.0.0",
-    "react-animated-cursor": "github:JDMGriff/react-animated-cursor#master",
-    "react-dom": "^19.0.0",
-    "react-icons": "^5.4.0",
-    "react-swipeable": "^7.0.2",
-    "resend": "^4.1.2",
-    "shadcn": "^2.3.0",
-    "tailwind-merge": "^3.0.1",
-    "tailwindcss": "^4.0.4",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@types/glidejs__glide": "^3.6.6",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "typescript": "^5"
-  }
+    "name": "freelance-pixels",
+    "version": "1.0.0",
+    "private": true,
+    "type": "module",
+    "engines": {
+        "node": ">=22.13.0"
+    },
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc --noEmit && node scripts/build.mjs",
+        "preview": "vite preview",
+        "check": "tsc --noEmit"
+    },
+    "dependencies": {
+        "react": "19.2.6",
+        "react-dom": "19.2.6"
+    },
+    "devDependencies": {
+        "@types/node": "22.19.19",
+        "@types/react": "19.2.14",
+        "@types/react-dom": "19.2.3",
+        "@vitejs/plugin-react": "6.0.2",
+        "esbuild": "0.28.0",
+        "prettier": "3.6.2",
+        "typescript": "5.9.3",
+        "vite": "8.0.13"
+    }
 }
