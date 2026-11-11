@@ -58,7 +58,6 @@ export default function Contact() {
                         hello@freelancepixels.uk <Arrow />
                     </a>
                     <div className="contact-options">
-                        <a href="tel:+447875333101">07875 333 101</a>
                         <button type="button" onClick={copyEmail}>
                             {copied ? 'Email copied' : 'Copy email address'}
                         </button>

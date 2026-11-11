@@ -43,7 +43,6 @@ export default function Footer({ agency = false }: { agency?: boolean }) {
                     </nav>
                     <div className="footer-contact">
                         <a href="mailto:hello@freelancepixels.uk">hello@freelancepixels.uk</a>
-                        <a href="tel:+447875333101">07875 333 101</a>
                         <span>Essex, UK</span>
                     </div>
                 </div>
