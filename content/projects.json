@@ -40,6 +40,47 @@
         "websiteLabel": "Visit live website"
     },
     {
+        "name": "Oasis LMF",
+        "slug": "oasis-lmf",
+        "type": "Open-source software",
+        "role": "UI/UX design & WordPress build",
+        "tools": "WordPress / Custom boilerplate / ACF",
+        "intro": "Website design and WordPress development for Oasis Loss Modelling Framework, built using my own boilerplate.",
+        "overview": "I handled both the website design and WordPress build. The site introduces an open-source catastrophe modelling framework and provides routes into models, resources and the wider community. The examples shown are from the staging website.",
+        "focus": [
+            [
+                "Design for specialist content",
+                "The site separates information for insurers, model developers and technology partners, giving each audience a route into the platform."
+            ],
+            [
+                "Built on my boilerplate",
+                "My WordPress foundation provides the starting point for the page components and content editing setup."
+            ],
+            [
+                "A connected information hub",
+                "The model library, resource library, news and events sit within a shared site structure and visual system."
+            ]
+        ],
+        "images": [
+            {
+                "src": "/images/projects/oasis-lmf-1.jpg",
+                "caption": "Homepage: the Oasis LMF design and build, shown on staging.",
+                "width": 1348,
+                "height": 926
+            },
+            {
+                "src": "/images/projects/oasis-lmf-2.jpg",
+                "caption": "Model library: a specialist content section within the staging website.",
+                "width": 1348,
+                "height": 926
+            }
+        ],
+        "status": "Staging preview",
+        "attribution": "Completed as part of an employed agency role.",
+        "websiteUrl": "https://staging.oasislmf.org/",
+        "websiteLabel": "View staging website"
+    },    
+    {
         "name": "Samiad",
         "slug": "samiad",
         "type": "Education",
@@ -118,47 +159,6 @@
         "attribution": "Completed as part of an employed agency role.",
         "websiteUrl": "https://www.donotdisturb.com/",
         "websiteLabel": "Visit live website"
-    },
-    {
-        "name": "Oasis LMF",
-        "slug": "oasis-lmf",
-        "type": "Open-source software",
-        "role": "UI/UX design & WordPress build",
-        "tools": "WordPress / Custom boilerplate / ACF",
-        "intro": "Website design and WordPress development for Oasis Loss Modelling Framework, built using my own boilerplate.",
-        "overview": "I handled both the website design and WordPress build. The site introduces an open-source catastrophe modelling framework and provides routes into models, resources and the wider community. The examples shown are from the staging website.",
-        "focus": [
-            [
-                "Design for specialist content",
-                "The site separates information for insurers, model developers and technology partners, giving each audience a route into the platform."
-            ],
-            [
-                "Built on my boilerplate",
-                "My WordPress foundation provides the starting point for the page components and content editing setup."
-            ],
-            [
-                "A connected information hub",
-                "The model library, resource library, news and events sit within a shared site structure and visual system."
-            ]
-        ],
-        "images": [
-            {
-                "src": "/images/projects/oasis-lmf-1.jpg",
-                "caption": "Homepage: the Oasis LMF design and build, shown on staging.",
-                "width": 1348,
-                "height": 926
-            },
-            {
-                "src": "/images/projects/oasis-lmf-2.jpg",
-                "caption": "Model library: a specialist content section within the staging website.",
-                "width": 1348,
-                "height": 926
-            }
-        ],
-        "status": "Staging preview",
-        "attribution": "Completed as part of an employed agency role.",
-        "websiteUrl": "https://staging.oasislmf.org/",
-        "websiteLabel": "View staging website"
     },
     {
         "name": "Hilson Moran",
