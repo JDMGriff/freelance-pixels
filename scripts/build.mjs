@@ -1,6 +1,5 @@
 import { build } from 'esbuild';
 import { mkdir, rm, cp, readFile, writeFile } from 'node:fs/promises';
-import { createHash } from 'node:crypto';
 import { resolve, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 
@@ -59,7 +58,7 @@ try {
     );
     const javascriptUrl = '/assets/' + javascriptFile.split('/').pop();
     const css = await readFile('src/styles/global.css', 'utf8');
-    const cssFile = `style-${createHash('sha256').update(css).digest('hex').slice(0, 12)}.css`;
+    const cssFile = 'style.css';
     await writeFile(join(outputDirectory, 'assets', cssFile), css);
 
     for (const route of routes) {

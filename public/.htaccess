@@ -1,0 +1,5 @@
+<IfModule mod_headers.c>
+    <Files "style.css">
+        Header set Cache-Control "no-cache"
+    </Files>
+</IfModule>
