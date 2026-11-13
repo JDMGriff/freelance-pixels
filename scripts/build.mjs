@@ -88,6 +88,19 @@ try {
         );
     }
 
+    const sitemapUrls = routes
+        .map((route) => `    <url><loc>${escapeHtml('https://freelancepixels.uk' + route.path)}</loc></url>`)
+        .join('\n');
+
+    await writeFile(
+        join(outputDirectory, 'sitemap.xml'),
+        `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls}
+</urlset>
+`
+    );
+
     console.log(`Built ${routes.length} pages in out/.`);
 } finally {
     await rm(cacheDirectory, { recursive: true, force: true });
