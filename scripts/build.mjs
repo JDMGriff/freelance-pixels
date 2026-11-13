@@ -82,7 +82,7 @@ try {
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>${title}</title>
         <link rel="canonical" href="${escapeHtml('https://freelancepixels.uk' + route.path)}">
-        <meta name="description" content="Independent web design and custom WordPress development in Essex. Bespoke components, my own boilerplate and hybrid editing built around your business.">
+        <meta name="description" content="${escapeHtml(route.description)}">
         <meta name="theme-color" content="#111214">
         <link rel="icon" href="/favicon.svg?v=2">
         <link rel="stylesheet" href="/assets/${cssFile}">
@@ -96,7 +96,10 @@ try {
     }
 
     const sitemapUrls = routes
-        .map((route) => `    <url><loc>${escapeHtml('https://freelancepixels.uk' + route.path)}</loc></url>`)
+        .map(
+            (route) =>
+                `    <url><loc>${escapeHtml('https://freelancepixels.uk' + route.path)}</loc></url>`
+        )
         .join('\n');
 
     await writeFile(
