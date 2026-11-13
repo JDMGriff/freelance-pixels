@@ -75,6 +75,7 @@ try {
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <title>${title}</title>
+        <link rel="canonical" href="${escapeHtml('https://freelancepixels.uk' + route.path)}">
         <meta name="description" content="Independent web design and custom WordPress development in Essex. Bespoke components, my own boilerplate and hybrid editing built around your business.">
         <meta name="theme-color" content="#111214">
         <link rel="icon" href="/favicon.svg?v=2">

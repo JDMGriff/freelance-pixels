@@ -1,3 +1,9 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTP_HOST} ^www\.freelancepixels\.uk$ [NC]
+    RewriteRule ^ https://freelancepixels.uk%{REQUEST_URI} [R=301,L]
+</IfModule>
+
 <IfModule mod_headers.c>
     <Files "style.css">
         Header set Cache-Control "no-cache"
